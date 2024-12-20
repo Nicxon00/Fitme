@@ -85,7 +85,7 @@ class _YourSetPageState extends State<YourSetPage> {
     // Menghapus data set dari SharedPreferences
     await prefs.remove('set_$setName');
 
-    // Muat ulang data set setelah penghapusan dan update UI
+    // Muat ulang data set setelah penghapusan dan update
     _loadSavedSets();
   }
 }
